@@ -8,8 +8,23 @@ header {
     justify-content: center;
     background-color: rgb(201, 247, 247);
 }
+h1{
+    font-size:xx-large;
+}
 img {
     border: 5px solid grey;
+}
+
+footer{ 
+    display: flex;
+    justify-content: center;
+    background-color: rgb(201, 247, 247);
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(92, 91, 91);
 }
 
 /* Make the header and footer a different color from the background */
