@@ -1,4 +1,16 @@
-/* Give your page a fun background color */
+body {
+    background-color: azure;
+    margin: 10.88% 10.88%;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(201, 247, 247);
+}
+img {
+    border: 5px solid grey;
+}
 
 /* Make the header and footer a different color from the background */
 
