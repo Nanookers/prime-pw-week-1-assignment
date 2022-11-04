@@ -11,12 +11,12 @@
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
         an empty folder yields no results. a folder w/ files produces a list of the available files in the folder. 
 # 6 - What is a quick way to create a new file?
-        In a new folder, type 'touch' index.html or style.css or helloWorld.js -- then to open them from terminal type code .
+        In a new folder, type 'touch' index.html or style.css or helloWorld.js -- then to open them from terminal type code .   
 # 7 - Run 'git --version' in your terminal. What is the output?
         if you have git installed, it will tell you: git version 2.30.1 (or whatever you have installed)
 # 8 - Why would you run the command 'git status'?
-        to know the status of the files before you commit them, and see if your changes are saved: red = not updated / Green = ready to commit changes. 
-        it can also tell you if you need to update the files to view them in a browser (like if you aren't seeing any changes you made).
+        To get the status of the staged files. This means that you get to see things like: how many commits ahead of the 
+        main branch you are; it allows you to see what files have been staged for commits, prior to committing them to the work history
 # 9 - What does the command 'git add .' do?
         It allows you to update and save the files without committing any changes to them. 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
