@@ -11,7 +11,11 @@
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
         an empty folder yields no results. a folder w/ files produces a list of the available files in the folder. 
 # 6 - What is a quick way to create a new file?
+<<<<<<< HEAD
         In a new folder, type 'touch' index.html or style.css or helloWorld.js -- then to open them from terminal type code .   
+=======
+        in the folder of your choice, enter  touch followed by a name with the file type: index.html or style.css or helloWorld.js
+>>>>>>> 4863de36dd5e1e2b202c9a452fe2d807e020bda8
 # 7 - Run 'git --version' in your terminal. What is the output?
         if you have git installed, it will tell you: git version 2.30.1 (or whatever you have installed)
 # 8 - Why would you run the command 'git status'?
