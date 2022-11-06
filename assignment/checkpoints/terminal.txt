@@ -15,9 +15,12 @@
 # 7 - Run 'git --version' in your terminal. What is the output?
         if you have git installed, it will tell you: git version 2.30.1 (or whatever you have installed)
 # 8 - Why would you run the command 'git status'?
-        To get the status of the staged files. This means that you get to see things like: how many commits ahead of the 
-        main branch you are; it allows you to see what files have been staged for commits, prior to committing them to the work history
+        To get the status of the directory you're working in, as well as the staging area, where your files live before committing. 
+        This means that you get to see things like: how many commits ahead of the 
+        main branch you are; it allows you to see what files have been staged for commits, prior to committing them to the work history; This
+        in turn also allows you to unstage any files that you have staged. 
 # 9 - What does the command 'git add .' do?
-        It allows you to update and save the files without committing any changes to them. 
+        this step comes beore committing, where you stage the files that you are currently working on. Staging mean that you are telling GitHub
+        the particular files that you will be updating in the next commit. 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
         git push origin main / though it sounded like there might be some scenarios where the 'main' tag is not used.
